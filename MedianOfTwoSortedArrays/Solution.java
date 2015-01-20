@@ -16,7 +16,7 @@ public class Solution {
   // use startA and startB to mark part of the arrays
   private int find_kth(int A[], int startA, int B[], int startB, int k) {
     int m = A.length - startA;
-    int n = B.length - startB;
+    int n = B.length - startB; 
 
     if (m > n) {
       return find_kth(B, startB, A, startA, k);
