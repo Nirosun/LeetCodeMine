@@ -3,20 +3,6 @@ public class Solution {
     if (strs.length == 0) return "";
     if (strs.length == 1) return strs[0];
 
-    /*
-    for (int i = 0; i < strs.length; i ++) {
-      if (strs[i] == null || "".equals(strs[i])) return "";
-    }
-    */
-
-    /*for (int i = 0; ; i ++) {
-      if (i == strs[0].length()) return strs[0].substring(0, i);
-      String prefix = strs[0].substring(0, i + 1);
-      for (int j = 0; j < strs.length; j ++) {
-        if (i == strs[j].length() || !strs[j].startsWith(prefix))
-          return strs[0].substring(0, i);
-      }
-    }*/
     int index = 0;
 
     out:
