@@ -5,3 +5,6 @@
 2.2.9 Reverse Nodes in k-Group
 2.2.10 Copy List with Random Pointer
 2.2.14 LRU Cache
+3.5 Longest Palindromic Substring
+3.6 Regular Expression Matching
+3.7 Wildcard Matching
