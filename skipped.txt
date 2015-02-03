@@ -29,5 +29,9 @@
 13.11 Distinct Subsequences
 13.13 Word Break II
 
+15.3 Insert Interval
+15.4 Merge Intervals
+15.5 Minimum Window Substring
+15.7 Substring with Concatenation of All Words
 
 
