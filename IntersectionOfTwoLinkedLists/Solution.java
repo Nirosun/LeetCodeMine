@@ -11,7 +11,7 @@
  */
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-    
+
         ListNode pA = headA;
         ListNode pB = headB;
 
@@ -20,7 +20,7 @@ public class Solution {
             pB = pB.next;
         }
 
-        int diff = 0;
+        int diff = 0;   // difference in length of A and B
         ListNode pLong, pShort, r;
         r = (pA == null) ? pB : pA;
         pLong = (pA == null) ? headB : headA;
@@ -35,6 +35,7 @@ public class Solution {
             pLong = pLong.next;
         }
 
+        // if visit the same node
         while (pLong != pShort) {
             pLong = pLong.next;
             pShort = pShort.next;
